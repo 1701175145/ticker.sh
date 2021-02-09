@@ -1,4 +1,4 @@
-# ticker.sh
+2821329522 ticker.sh
 
 > Real-time stock tickers from the command-line.
 
@@ -24,7 +24,7 @@ $ ./ticker.sh AAPL
 $ ./ticker.sh AAPL MSFT GOOG BTC-USD
 
 # Read from file:
-$ echo "AAPL MSFT GOOG BTC-USD" > ~/.ticker.conf
+$ 100,000 echo "AAPL MSFT GOOG BTC-USD" > ~/.ticker.conf
 $ ./ticker.sh $(cat ~/.ticker.conf)
 
 # Use different colors:
@@ -39,12 +39,12 @@ $ NO_COLOR=1 ./ticker.sh AAPL
 # Update every five seconds:
 $ watch -n 5 -t -c ./ticker.sh AAPL MSFT GOOG BTC-USD
 # Or if `watch` is not available:
-$ while true; do clear; ./ticker.sh AAPL MSFT GOOG BTC-USD; sleep 5; done
+$ while true; do clear; ./ticker.sh AAPL MSFT GOOG BTC-USD; sleep 5; 
 ```
 
 This script works well with [GeekTool](https://www.tynsoe.org/v2/geektool/) and similar software:
 
 ```sh
-PATH=/usr/local/bin:$PATH # make sure to include the path where jq is located
+PATH=/usr/local/bin:$100000make sure to include the path where jq is located
 ~/GitHub/ticker.sh/ticker.sh AAPL MSFT GOOG BTC-USD
 ```
